@@ -6,10 +6,12 @@ body {
 header {
   background-color: #3e8dc9;
   padding: 100px;
+  background-image: url(../img/main-background.jpg);
+  background-size:  cover;
 }
 
 h1 {
-  color: #111;
+  color: white;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 75px;
   font-weight: bold;
@@ -43,99 +45,77 @@ p {
 }
 
 .container {
-    margin: 0 auto;
+padding-left: 20%;
+padding-right: 20%;
+
 }
 
 section {
-  background-image: url(https://img.freepik.com/fotos-gratis/3d-rendem-de-um-fundo-indicador-madeira-com-luzes-embutidas_1048-4872.jpg);
+
   background-color: purple;
   float:  left;
   width: 100%;
 }
 
-a:link {
-  width: 30%;
-  color: white;
-  font-size: 40px;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  letter-spacing: -1px;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration:none;
-
-}
-
-/* visited link */
-a:visited {
-  width: 30%;
-  color: #363636;
-  font-size: 40px;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  letter-spacing: -1px;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration:none;
-
-}
-
-/* mouse over link */
-a:hover {
-  width: 30%;
-  color: black;
-  font-size: 40px;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  letter-spacing: -1px;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration:none;
-
-}
-
-/* selected link */
-a:active {
-  width: 30%;
-  color: black;
-  font-size: 40px;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  letter-spacing: -1px;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration:none;
-
-
-}
-
-li {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  list-style: none;
-}
-
 button {
-  border: 0;
+  display: inline-block;
+  overflow:hidden;
+  align-items: center;
+  justify-content: center;
+  border-width: 3px;
+  border-color: #f44336;
   border-radius: 50%;
-  color: black;
-  line-height:1;
   width: 300px;
   height: 300px;
-  margin-left: 40px;
+  float: left;
+  margin-left: 10px;
   margin-bottom: 10px;
+  font-size: 40px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.7
 }
+
 
 button:hover {
-  background-color: #f44336;
+  background-color: rgba(228, 12, 12, 0.4);
   color: white;
-
+  cursor: pointer;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 50%;
+  opacity: 0.9;
 }
 
+#stripe {
+  display:  inline;
+background: red;
+color: white;
+opacity: 0.8;
+}
+
+
+button.recipe1{
+  background-image: url(../img/lasagna/icon.jpeg);
+  background-size:cover;
+}
+
+
+button.recipe2{
+  background-image: url(../img/eggplant/icon.jpeg);
+  background-size:cover;
+}
+
+
+
+
+li  {
+  list-style: none;
+}
 
 
 

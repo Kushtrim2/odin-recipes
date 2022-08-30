@@ -1,0 +1,132 @@
+body {
+    background-color: #c93e3e;
+    margin: 0;
+}
+
+header {
+  background-color: #3e8dc9;
+  padding: 100px;
+}
+
+h1 {
+  color: #111;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+h2 {
+  background-color: white;
+  color: #111;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-left: 20%;
+  border-radius: 1.5rem;
+  margin-right: 20%;
+  text-align: center;
+}
+
+p {
+  color: #685206;
+  font-family: 'Helvetica Neue',
+  sans-serif; font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+section {
+  background-image: url(https://img.freepik.com/fotos-gratis/3d-rendem-de-um-fundo-indicador-madeira-com-luzes-embutidas_1048-4872.jpg);
+  background-color: purple;
+  float:  left;
+  width: 100%;
+}
+
+
+button {
+  float:left;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  color: black;
+  line-height:1;
+  width: 300px;
+  height: 300px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  text-decoration:none;
+  display:inline;
+}
+
+button:hover {
+  background-color: #f44336;
+  color: black;
+}
+
+
+
+
+li  {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration:none;
+display:inline;
+}
+
+
+
+a:link {
+  width: 30%;
+  color: white;
+  font-size: 40px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration:none;
+  display:inline;
+}
+
+/* visited link */
+a:visited {
+  width: 30%;
+  color: #363636;
+  font-size: 40px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration:none;
+  display:inline;
+}
+
+
+
+footer {
+  background-color: yellow;
+  text-align: center;
+  color: #111;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12x;
+  font-weight: 300;
+  padding: 30px;
+  clear:both;
+  text-transform: uppercase
+}
