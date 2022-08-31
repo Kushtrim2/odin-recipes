@@ -5,7 +5,7 @@ margin: 0;
 
 header {
 background-color:white;
-padding: 10%  ;
+padding: 9%  ;
 background-image: url(../img/main-page/main-background.jpg);
 background-size:   cover;
 
@@ -64,7 +64,7 @@ text-transform: uppercase;
 section {
   padding: 5%;
   overflow:  hidden;
-  margin-top: 54%;
+  margin-top: 51%;
   margin-right: 6%;
   margin-left: 8%;
 
@@ -75,43 +75,38 @@ list-style: none;
 }
 
 
-
 button {
 border-width:8px;
-border-color: rgb(115,84,69);
+border-color: rgb(45,75,148);
 border-radius: 50%;
-border-style: solid;
+border-style:  outset;
 width: 19vw;
 height: 19vw;
 float: left;
 margin-left: 20px;
 margin-bottom: 20px;
-opacity: 1;
+opacity: 80%;
 overflow: hidden;
 }
 
-
 button:hover {
-background-color: rgba(f,f,f,0.4);
-color: white;
 cursor: pointer;
-border-style: outset;
-border-width: 7px;
-border-color: white;
+border-style:  outset;
+border-width: 10px;
+border-color: rgb(255,182,0);
 border-radius: 50%;
-opacity: 0.8;
-
-background-blend-mode:saturation;
+opacity: 70%;
+display: inline;
 }
 
 #button-text {
 display: inline;
-background: red;
+background: rgb(45,75,148);
 color: white;
 opacity:  0.8;
 text-transform: uppercase;
 line-height: 3vw;
-font-size: 2.25vw;
+font-size: 2.5vw;
 font-family: 'Helvetica Neue',sans-serif;
 font-weight: bold;
 letter-spacing: -1px;
@@ -120,12 +115,12 @@ letter-spacing: -1px;
 #button-text:hover{
 display: inline;
 background: white;
-color: red;
-opacity:  0.9;
+color: rgb(45,75,148,0.9);
+opacity:  0.8;
 background-blend-mode: color-burn;
 text-transform: uppercase;
 line-height: 3vw;
-font-size: 2.25vw;
+font-size: 2.5vw;
 font-family: 'Helvetica Neue',sans-serif;
 font-weight: bold;
 letter-spacing: -1px;
