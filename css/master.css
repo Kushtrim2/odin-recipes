@@ -1,5 +1,5 @@
 body {
-background-color: #c93e3e;
+background-color: white;
 margin: 0;
 }
 
@@ -12,12 +12,9 @@ background-size: cover;
 
 h1 {
 text-align: center;
-align-items: center;
-
 color: white;
 font-family: 'Helvetica Neue',sans-serif;
-
-font-size: 75px;
+font-size: 5vw;
 font-weight: bold;
 letter-spacing: -1px;
 line-height: 1.25;
@@ -34,49 +31,52 @@ text-transform: uppercase;
 h2 {
 color: #111;
 font-family: 'Open Sans',sans-serif;
-font-size: 30px;
+font-size: 3vw;
 font-weight: 300;
-line-height: 2.25rem;
-margin-left: 20%;
-border-radius: 1.5rem;
-margin:auto;
-margin-top: 10px;
-text-align: center;
+line-height: 1.25;
+text-align:  center;
+
+margin-bottom: 10%;
+text-transform: uppercase;
 }
 
 .h2-highlight {
   display: inline;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .container {
-  background-color: purple;
-  float: left;
-  width: 100%;
+
+  background-image: url(../img/main-page/section.jpg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:  100vw;
+  height:  68vw;
+  align-items: center;
+  overflow:  hidden;
 }
 
-
+section {
+}
 
 li {
 list-style: none;
 }
 
+
+
 button {
-border-width: 3px;
-border-color: #f44336;
+border-width: 0.25vw;
+border-color: white;
 border-radius: 50%;
-width: 300px;
-height: 300px;
+width: 20vw;
+height: 20vw;
 float: left;
-margin-left: 10px;
-margin-bottom: 10px;
-font-size: 40px;
-font-family: 'Helvetica Neue',sans-serif;
-font-weight: bold;
-letter-spacing: -1px;
-line-height: 1;
+margin-left: 20px;
+margin-bottom: 20px;
 opacity: 0.7;
-overflow:  hidden;
+overflow: hidden;
 }
 
 
@@ -84,10 +84,10 @@ button:hover {
 background-color: rgba(228,12,12,0.4);
 color: white;
 cursor: pointer;
-border-width: 3px;
-border-color: white;
+border-width: 0.4vw;
+border-color: #f44336;
 border-radius: 50%;
-opacity: 0.9;
+opacity: 0.3;
 }
 
 #button-text {
@@ -96,7 +96,13 @@ background: red;
 color: white;
 opacity:  0.8;
 text-transform: uppercase;
+line-height: 3vw;
+font-size: 2.25vw;
+font-family: 'Helvetica Neue',sans-serif;
+font-weight: bold;
+letter-spacing: -1px;
 }
+
 
 
 button.recipe1 {
@@ -148,13 +154,13 @@ background-size: cover;
 
 
 footer {
+margin-top: 60%;
 background-color: yellow;
 text-align: center;
 color: #111;
 font-family: 'Open Sans',sans-serif;
-font-size: 12x;
+font-size: 2vw;
 font-weight: 300;
-padding: 30px;
 clear: both;
 text-transform: uppercase
 }
