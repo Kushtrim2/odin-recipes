@@ -66,7 +66,7 @@ section {
   overflow:  hidden;
   margin-top: 54%;
   margin-right: 6%;
-  margin-left: 5%;
+  margin-left: 8%;
 
 }
 
@@ -77,9 +77,10 @@ list-style: none;
 
 
 button {
-border-width: 0.25vw;
-border-color: white;
+border-width:8px;
+border-color: rgb(115,84,69);
 border-radius: 50%;
+border-style: solid;
 width: 19vw;
 height: 19vw;
 float: left;
@@ -91,15 +92,16 @@ overflow: hidden;
 
 
 button:hover {
-background-color: rgba(228,12,12,0.4);
+background-color: rgba(f,f,f,0.4);
 color: white;
 cursor: pointer;
-border-width: 0.4vw;
-border-color: #f44336;
+border-style: outset;
+border-width: 7px;
+border-color: white;
 border-radius: 50%;
 opacity: 0.8;
 
-background-blend-mode:      saturation;
+background-blend-mode:saturation;
 }
 
 #button-text {
@@ -180,12 +182,13 @@ background-size: cover;
 
 footer {
 padding-top: 20px;
-background-color: yellow;
+padding-bottom: 20px;
+background-color: rgb(45,75,148);
 text-align: center;
-color: #111;
+color:white;
 font-family: 'Open Sans',sans-serif;
 font-size: 2vw;
-font-weight: 300;
+font-weight: 600;
 clear: both;
 text-transform: uppercase
 }
