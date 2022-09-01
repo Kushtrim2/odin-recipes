@@ -5,9 +5,9 @@ margin:0;
 
 header {
 background-color:white;
-padding:10%;
+padding:5%;
 background-image:url(../img/main-page/background2.jpg);
-background-size:contain;
+background-size:  cover;
 }
 
 h1 {
