@@ -1,16 +1,21 @@
 body {
 background-color:white;
-margin:0;
+display:    flex;
+flex-direction: column;
+min-height: 100vh;
+margin: 0;
 }
 
 header {
+flex: 1vw;
 background-color:white;
-padding:5%;
 background-image:url(../img/main-page/background2.jpg);
-background-size:  cover;
+background-size: cover;
+padding-bottom: 5%;
 }
 
 h1 {
+padding-right: 10%;
 text-align:right;
 color:black;
 font-family:"ArialBlack","ArialBold",Gadget,sans-serif;
@@ -29,6 +34,8 @@ background-color:rgb(255,182,0);
 }
 
 .h2-header {
+  padding-right: 10%;
+  padding-bottom: 5%;
 color:#111;
 font-size:2.25vw;
 font-family:'HelveticaNeue',sans-serif;
@@ -73,42 +80,62 @@ background-position:center;
 background-size:cover;
 background-repeat:no-repeat;
 align-items:center;
-width:100vw;
-height:160vw;
-overflow:hidden;
+width:100%;
+height:134vw;
+overflow: hidden;
+display: flex;
+justify-content: center;
+      bottom: 0;
+ flex-wrap: wrap;
 }
 
 section {
-padding:2%;
-margin-top:53%;
-margin-right:6%;
-margin-left:8%;
-overflow:hidden;
+  position: sticky;
+      bottom: 0;
+      min-width: 65vw;
+      padding-top: 38vw;
+      padding-bottom: 6vw;
+      padding-left: 18vw;
+      padding-right: 18vw;
+      margin-top: 0vw;
+      margin-bottom: 0vw;
+      margin-left: 2vw;
+      margin-right: 0vw;
+      overflow: hidden;
+      flex-wrap: wrap;
+      overflow: hidden;
+
 }
 
 ul {
-list-style:none;
+  list-style:none;
 }
 
+li {
+  list-style: none;
+}
 
 button {
-border-width:8px;
+
+border-width:3px;
 border-color:rgb(45,75,148);
-border-radius:50%;
+border-radius:50vw;
 border-style:outset;
-width:19vw;
-height:19vw;
+width:15vw;
+height:15vw;
 float:left;
-margin-left:20px;
-margin-bottom:20px;
 opacity:90%;
 overflow:hidden;
+margin-top: 0vw;
+margin-right: 3vw;
+margin-bottom: 2vw;
+margin-left: 0vw;
 }
 
 button:hover {
 cursor:pointer;
 border-style:outset;
-border-width:10px;
+border-width:3px;
 border-color:rgb(255,182,0);
 border-radius:50%;
 opacity:70%;
@@ -200,6 +227,7 @@ background-size:cover;
 
 
 footer {
+
 padding-top:20px;
 padding-bottom:20px;
 background-color:rgb(45,75,148);
@@ -209,4 +237,5 @@ font-size:2vw;
 font-weight:600;
 clear:both;
 text-transform:uppercase
+overflow:hidden;
 }
