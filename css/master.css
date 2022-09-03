@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #feb609;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -7,7 +7,6 @@ body {
 }
 
 header {
-  flex: 1vw;
   background-color: white;
   background-image: url(../img/main-page/background2.jpg);
   background-size: cover;
@@ -244,5 +243,7 @@ footer {
   font-size: 2vw;
   font-weight: 600;
   clear: both;
-  text-transform: uppercase overflow:hidden;
+  text-transform: uppercase;
+  overflow: hidden;
+  flex: 1vw;
 }
