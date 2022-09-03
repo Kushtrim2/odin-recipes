@@ -22,11 +22,11 @@ body {
 }
 
 main {
-  display: inline-block;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  min-height: 80%;
   padding-block-start: 15vw;
-  margin-block-end: 1vw;
+  margin-block-end: 13vw;
   margin-inline-start: 5vw;
   margin-inline-end: 5vw;
 }
@@ -50,34 +50,29 @@ h1 {
 h2 {
   text-align: center;
   text-transform: capitalize;
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-weight: bold;
-}
-
-p {
-  text-align: center;
-}
-}
-
-ul {
-  text-align: center;
-}
-
-ol {
-  text-align: center;
-}
-
-li {
-  text-align: center;
 }
 
 h3 {
   text-align: center;
   text-transform: capitalize;
 }
+
+ul {
+  padding: 0;
 }
 
+ol {
+  padding: 0;
+}
+
+.Instructions {}
+
+.Nutritions {}
+
 footer {
+  margin-top: auto;
   text-align: center;
 }
 
