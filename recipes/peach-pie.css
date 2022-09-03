@@ -22,24 +22,24 @@ body {
 }
 
 main {
-  display: inline-block;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  font-size: 1.5vw;
+  min-height: 80%;
   padding-block-start: 15vw;
-  margin-block-end: 1vw;
+  margin-block-end: 13vw;
   margin-inline-start: 5vw;
   margin-inline-end: 5vw;
+  gap: 10vw;
 }
-
-.container {}
 
 header {
   align-items: center;
   font-family: serif;
-  font-size: 3vw;
 }
 
 h1 {
+  font-size: 5.9vw;
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -50,34 +50,48 @@ h1 {
 h2 {
   text-align: center;
   text-transform: capitalize;
-  font-size: 1.5vw;
+  font-size: 3.0vh;
   font-weight: bold;
 }
 
 p {
-  text-align: center;
-}
-}
-
-ul {
-  text-align: center;
-}
-
-ol {
-  text-align: center;
-}
-
-li {
-  text-align: center;
+  font-size: 2vmin;
 }
 
 h3 {
+  font-size: 2.5vh;
   text-align: center;
   text-transform: capitalize;
 }
+
+ul {
+  padding: 0;
+}
+
+ol {
+  padding: 0;
+}
+
+.Ingredients {
+  border-color: #b78100;
+  border-style: dashed;
+  border-width: 0.2vw;
+}
+
+.Instructions {
+  border-color: #b78100;
+  border-style: dashed;
+  border-width: 0.2vw;
+}
+
+.Nutritions {
+  border-color: #b78100;
+  border-style: dashed;
+  border-width: 0.2vw;
 }
 
 footer {
+  margin-top: auto;
   text-align: center;
 }
 
