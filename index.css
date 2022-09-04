@@ -8,7 +8,7 @@ body {
 
 header {
   background-color: white;
-  background-image: url(../img/main-page/background2.jpg);
+  background-image: url(img/main-page/background2.jpg);
   background-size: cover;
   padding-bottom: 5%;
 }
@@ -79,7 +79,7 @@ h2 {
 
 .container {
   background-color: orange;
-  background-image: url(../img/main-page/section.jpg);
+  background-image: url(img/main-page/section.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -170,47 +170,47 @@ button:hover {
 }
 
 button.recipe1 {
-  background-image: url(../img/main-page/lasagna/icon.jpeg);
+  background-image: url(img/main-page/lasagna/icon.jpeg);
   background-size: cover;
 }
 
 button.recipe2 {
-  background-image: url(../img/main-page/eggplant/icon.jpeg);
+  background-image: url(img/main-page/eggplant/icon.jpeg);
   background-size: cover;
 }
 
 button.recipe3 {
-  background-image: url(../img/main-page/blueberry/icon.jpeg);
+  background-image: url(img/main-page/blueberry/icon.jpeg);
   background-size: cover;
 }
 
 button.recipe4 {
-  background-image: url(../img/main-page/peach-pie/icon.jpeg);
+  background-image: url(img/main-page/peach-pie/icon.jpeg);
   background-size: cover;
 }
 
 button.recipe5 {
-  background-image: url(../img/main-page/beef-sandwich/icon.jpg);
+  background-image: url(img/main-page/beef-sandwich/icon.jpg);
   background-size: cover;
 }
 
 button.recipe6 {
-  background-image: url(../img/main-page/cucumber-salad/icon.jpeg);
+  background-image: url(img/main-page/cucumber-salad/icon.jpeg);
   background-size: cover;
 }
 
 button.recipe7 {
-  background-image: url(../img/main-page/cinnamon-muffins/icon.jpeg);
+  background-image: url(img/main-page/cinnamon-muffins/icon.jpeg);
   background-size: cover;
 }
 
 button.recipe8 {
-  background-image: url(../img/main-page/thai-chicken/icon.jpg);
+  background-image: url(img/main-page/thai-chicken/icon.jpg);
   background-size: cover;
 }
 
 button.recipe9 {
-  background-image: url(../img/main-page/zucchini-tuna/icon.jpeg);
+  background-image: url(img/main-page/zucchini-tuna/icon.jpeg);
   background-size: cover;
 }
 
