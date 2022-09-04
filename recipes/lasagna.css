@@ -78,8 +78,20 @@ ol {
 }
 
 .Ingredients {
-  margin-bottom: 5vw;
-  padding: 2vw;
+  margin-bottom: 2vw;
+  padding: 1vw;
+  border-color: #b78100;
+  border-style: dashed;
+  border-width: 0.2vw;
+  overflow: hidden;
+}
+
+.slideshow {
+  align-content: center;
+  align-items: center;
+  text-indent: 5%;
+  margin-bottom: 2vw;
+  padding: -1%;
   border-color: #b78100;
   border-style: dashed;
   border-width: 0.2vw;
@@ -87,10 +99,10 @@ ol {
 }
 
 .Instructions {
-  padding: 2vw;
+  padding: 1vw;
   text-indent: 5%;
   margin-bottom: 5vw;
-  padding: -1%;
+  padding: 1;
   border-color: #b78100;
   border-style: dashed;
   border-width: 0.2vw;
@@ -104,7 +116,7 @@ ol {
 .Nutritions {
   display: inline-block;
   margin-bottom: 5vw;
-  padding: 2vw;
+  padding: 0;
   border-color: #b78100;
   border-style: dashed;
   border-width: 0.2vw;
