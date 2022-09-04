@@ -23,9 +23,9 @@ main {
   display: flex;
   flex-direction: column;
   font-size: 1.5vw;
-  width: 100%;
-  height: 77%;
-  margin: 0;
+  width: 70vw;
+  height: 175vw;
+  margin: 0px;
   padding: 1%;
   padding-top: 20%;
   padding-bottom: 30%;
