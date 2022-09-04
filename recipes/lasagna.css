@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  margin: 1%;
+  margin: 0%;
   padding-left: 13vw;
   padding-right: 13vw;
   padding-top: 1vw;
@@ -29,6 +29,12 @@ main {
   padding: 1%;
   padding-top: 20%;
   padding-bottom: 30%;
+}
+
+.container {
+  height: 144vw;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -69,7 +75,6 @@ p {
 
 ul {
   text-align: left;
-  padding: 20px;
 }
 
 ol {
@@ -114,13 +119,15 @@ ol {
 }
 
 .Nutritions {
-  display: inline-block;
+  flex-direction: column;
   margin-bottom: 5vw;
   padding: 0;
   border-color: #b78100;
   border-style: dashed;
   border-width: 0.2vw;
   overflow: hidden;
+  width: 65%;
+  align-self: center;
 }
 
 .Nutritions-list {
