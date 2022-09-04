@@ -1,1 +1,150 @@
-< !DOCTYPE html><html lang="en" dir="ltr"><meta charset="utf-8"><head><title>zucchini</title><link rel="stylesheet" href="lasagna.css"></head><body><header><h1>Lasagna</h1></header><main><h2>Short Desciptrion of the amazing dish</h2><p>The preferred meal of Charlie Kelly, from "It's Always Sunny in Philidelphia" .</p><p>Only the finest cuts of beef should be used, and is delicious when served immediately, or after fermenting in the trash for a week.</p><div class="Ingredients"><h3>Ingredients</h3><ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul></div><div class="Instructions"><h3>Instructions</h3><ol><li>Item 1</li><li>Item 2</li><li>Item 3</li></ol></div><div class="Nutritions"><h3>Nutritions</h3><ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul></div></main><footer><a href="https://github.com/Kushtrim2">Secret Footer |</a><a href="../index.html">Back Home</a></footer></body></html>
+body {
+  width: 70vw;
+  height: 230vw;
+  background: black;
+  background-repeat: repeat;
+  color: white;
+  font-family: monospace;
+  font-style: normal;
+  list-style-position: inside;
+  background-image: url(img/frame.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 3%;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5vw;
+  width: 70vw;
+  height: 175vw;
+  margin: 0px;
+  padding: 1%;
+  padding-top: 20%;
+  padding-bottom: 30%;
+}
+
+.container {
+  height: 144vw;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+
+h1 {
+  font-size: 4.9vw;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 7%;
+  text-align: center;
+  font-size: 3.0vw;
+  font-weight: bold;
+}
+
+h3 {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  background-color: #5a3442;
+  font-size: 2.5vw;
+  text-align: center;
+  text-transform: capitalize;
+  align-items: center;
+}
+
+p {
+  font-size: 2vmin;
+  margin-bottom: 4vw;
+}
+
+ul {
+  text-align: left;
+}
+
+ol {
+  text-align: left;
+  padding: 20px;
+}
+
+.Ingredients {
+  margin-bottom: 5vw;
+  padding: 1vw;
+  border-color: #b78100;
+  border-style: dashed;
+  border-width: 0.2vw;
+  overflow: hidden;
+}
+
+.slideshow {
+  align-content: center;
+  align-items: center;
+  text-indent: 5%;
+  margin-bottom: 5vw;
+  padding: -1%;
+  border-color: #b78100;
+  border-style: dashed;
+  border-width: 0.2vw;
+  overflow: hidden;
+}
+
+.Instructions {
+  padding: 1vw;
+  text-indent: 5%;
+  margin-bottom: 5vw;
+  padding: 1;
+  border-color: #b78100;
+  border-style: dashed;
+  border-width: 0.2vw;
+  overflow: hidden;
+}
+
+.Instructions p {
+  margin-bottom: 2%;
+}
+
+.Nutritions {
+  flex-direction: column;
+  margin-bottom: 5vw;
+  padding: 0;
+  border-color: #b78100;
+  border-style: dashed;
+  border-width: 0.2vw;
+  overflow: hidden;
+  width: 65%;
+  align-self: center;
+}
+
+.Nutritions-list {
+  padding: 1%;
+  columns: 2;
+}
+
+footer {
+  overflow: hidden;
+  margin-bottom: 0vw;
+  text-align: center;
+  font-size: 2vw;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <head>
     <title>Eggplant Parmesan</title>
-    <link rel="stylesheet" href="lasagna.css">
+    <link rel="stylesheet" href="eggplant-parmesan.css">
   </head>
   <body>
       <header>
@@ -11,39 +11,83 @@
       </header>
 
 <main>
-    <h2>Short Desciptrion of the amazing dish</h2>
-    <p>The preferred meal of Charlie Kelly, from "It's Always Sunny in Philidelphia".</p>
+    <h2>Eggplant Parmesan recipe for the slow cooker, made in layers with marinara sauce and cheese.</h2>
+    <p>The preferred meal of Donald Trump, from "It's Always Sunny in Philidelphia".</p>
     <p>Only the finest cuts of beef should be used, and is delicious when served immediately, or after fermenting in the trash for a week.</p>
 
+<div class="container">
 
 <div class="Ingredients">
   <h3>Ingredients</h3>
-
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<li>  4 eggplant, peeled and cut into 1/2-inch slices</li>
+<li>  1 tablespoon salt, or as needed</li>
+<li>  1 cup extra-virgin olive oil, or as needed</li>
+<li>  2 eggs</li>
+<li>  ⅓ cup water</li>
+<li>  3 tablespoons all-purpose flour</li>
+<li>  ⅓ cup seasoned bread crumbs</li>
+<li>  ½ cup grated Parmesan cheese</li>
+<li>  1 (32 ounce) jar prepared marinara sauce</li>
+<li>  1 (16 ounce) package mozzarella cheese, sliced</li>
 </ul>
 </div>
+
+
+<div class="slideshow">
+  <div class="w3-content w3-section"  style="width: 100%; height: 15vw; object-fit: cover;">
+    <img class="mySlides" src="img/eggplant-parmesan/img1.jpeg" style="width:100%">
+    <img class="mySlides" src="img/eggplant-parmesan/img2.jpeg" style="width:100%">
+    <img class="mySlides" src="img/eggplant-parmesan/img3.jpeg" style="width:100%">
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+</div>
+
+
+
 
 <div class="Instructions">
 <h3>Instructions</h3>
 
 <ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<p><li>  Place eggplant slices in a large bowl in layers, sprinkling each layer with salt. Let stand for 30 minutes to drain. Rinse and dry on paper towels.</li></p>
+<p><li>  Heat olive oil in a large skillet over medium heat. Whisk eggs with water and flour until smooth. Dip eggplant slices in batter and fry in the hot oil until golden brown, working in batches of 2 to 3 slices at a time.</li></p>
+<p><li>  Mix seasoned bread crumbs with Parmesan cheese in a bowl. Place 1/4 of the eggplant slices into a slow cooker and top with 1/4 of the crumbs, 1/4 of the marinara sauce, and 1/4 of the mozzarella cheese. Repeat layers three more times.</li></p>
+<p><li>  Cover and cook on Low until tender and flavors have blended, 4 to 5 hours.</li></p>
 </ol>
 </div>
 
 <div class="Nutritions">
-<h3>Nutritions</h3>
+  <h3>Nutritions</h3>
+<ul  class="Nutritions-list">
+  <li>533 calories</li>
+    <li>63 g protein</li>
+      <li>54 g carbohydrates</li>
+        <li>4 g fiber</li>
+          <li >13 g sugar</li>
+            <li>52 g fat</li>
+              <li>26 g saturated fat</li>
+                <li>1648 mg sodium</li>
+                </ul>
 
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ul>
+
+</div>
 </div>
 
 

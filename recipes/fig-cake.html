@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <head>
     <title>Fig Cake</title>
-    <link rel="stylesheet" href="lasagna.css">
+    <link rel="stylesheet" href="fig-cake.css">
   </head>
   <body>
       <header>
@@ -11,39 +11,82 @@
       </header>
 
 <main>
-    <h2>Short Desciptrion of the amazing dish</h2>
-    <p>The preferred meal of Charlie Kelly, from "It's Always Sunny in Philidelphia".</p>
+    <h2>Rich and fluffy fig cake as your summer party dessert! Made of delicious, and yummy.</h2>
+    <p>The preferred meal of Donald Trump, from "It's Always Sunny in Philidelphia".</p>
     <p>Only the finest cuts of beef should be used, and is delicious when served immediately, or after fermenting in the trash for a week.</p>
 
+<div class="container">
 
 <div class="Ingredients">
   <h3>Ingredients</h3>
-
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<li>2 cups white sugar</li>
+<li>3 eggs</li>
+<li>1 cup vegetable oil</li>
+<li>1 cup whole milk</li>
+<li>2 cups all-purpose flour</li>
+<li>2 teaspoons ground cinnamon</li>
+<li>1 teaspoon baking soda</li>
+<li>1 teaspoon salt</li>
+<li>2 cups mashed fig preserves</li>
+<li>1 cup pecan pieces</li>
 </ul>
 </div>
+
+
+<div class="slideshow">
+  <div class="w3-content w3-section"  style="width: 100%; height: 15vw; object-fit: cover;">
+    <img class="mySlides" src="img/fig-cake/img1.jpeg" style="width:100%">
+    <img class="mySlides" src="img/fig-cake/img2.jpeg" style="width:100%">
+    <img class="mySlides" src="img/fig-cake/img3.jpeg" style="width:100%">
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+</div>
+
+
+
 
 <div class="Instructions">
 <h3>Instructions</h3>
 
 <ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<p><li>Preheat oven to 350 degrees F (175 degrees C). Grease a 12-cup fluted tube pan (such as Bundt®) with cooking spray.</p></li>
+<p><li>Combine sugar and eggs in a bowl; beat with an electric mixer until sugar dissolves. Stir in vegetable oil. Pour in milk; mix well.</p></li>
+<p><li>Combine flour, cinnamon, baking soda, and salt in a separate bowl. Mix into the creamed sugar mixture until blended. Fold fig preserves and pecan pieces into the batter.</p></li>
+<p><li>Pour batter into the prepared pan.</p></li>
+<p><li>Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 1 hour. Cool in the pan for 10 minutes. Invert onto a wire rack to cool completely before slicing.</p></li>
 </ol>
 </div>
 
 <div class="Nutritions">
-<h3>Nutritions</h3>
-
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ul>
+  <h3>Nutritions</h3>
+<ul  class="Nutritions-list">
+  <li>533 calories</li>
+    <li>63 g protein</li>
+      <li>54 g carbohydrates</li>
+        <li>4 g fiber</li>
+          <li >13 g sugar</li>
+            <li>52 g fat</li>
+              <li>26 g saturated fat</li>
+                <li>1648 mg sodium</li>
+                </ul>
+</div>
 </div>
 
 

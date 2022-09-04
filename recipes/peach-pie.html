@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <head>
     <title>Peach Pie</title>
-    <link rel="stylesheet" href="lasagna.css">
+    <link rel="stylesheet" href="peach-pie.css">
   </head>
   <body>
       <header>
@@ -11,39 +11,80 @@
       </header>
 
 <main>
-    <h2>Short Desciptrion of the amazing dish</h2>
-    <p>The preferred meal of Charlie Kelly, from "It's Always Sunny in Philidelphia".</p>
+    <h2>Lasagna is a type of pasta, possibly one of the oldest types, made of very wide, flat sheets.</h2>
+    <p>The preferred meal of Donald Trump, from "It's Always Sunny in Philidelphia".</p>
     <p>Only the finest cuts of beef should be used, and is delicious when served immediately, or after fermenting in the trash for a week.</p>
 
+<div class="container">
 
 <div class="Ingredients">
   <h3>Ingredients</h3>
-
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<li>  10 fresh peaches, pitted and sliced</li>
+<li>  ⅓ cup all-purpose flour</li>
+<li>  1 cup white sugar</li>
+<li>  ¼ cup butter</li>
+<li>  1 recipe pastry for a 9 inch double crust pie</li>
 </ul>
 </div>
+
+
+<div class="slideshow">
+  <div class="w3-content w3-section"  style="width: 100%; height: 15vw; object-fit: cover;">
+    <img class="mySlides" src="img/peach-pie/img1.jpeg" style="width:100%">
+    <img class="mySlides" src="img/peach-pie/img2.jpeg" style="width:100%">
+    <img class="mySlides" src="img/peach-pie/img3.jpeg" style="width:100%">
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+</div>
+
+
+
 
 <div class="Instructions">
 <h3>Instructions</h3>
 
 <ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+  <p><li>Mix flour, sugar and butter into crumb stage.</p></li>
+  <p><li></p></li>
+  <p><li>Place one crust in the bottom of a 9 inch pie plate. Line the shell with some sliced peaches. Sprinkle some of the butter mixture on top of the peaches, then put more peaches on top of the the crumb mixture. Continue layering until both the peaches and crumbs are gone.</p></li>
+  <p><li>Top with lattice strips of pie crust</p></li>
+  <p><li></p></li>
+  <p><li>Bake at 350 degrees F (175 degrees C) for 45 minutes, or until crust is golden. Allow pie to cool before slicing. Best when eaten fresh.</p></li>
 </ol>
 </div>
 
 <div class="Nutritions">
-<h3>Nutritions</h3>
+  <h3>Nutritions</h3>
+<ul  class="Nutritions-list">
+  <li>533 calories</li>
+    <li>63 g protein</li>
+      <li>54 g carbohydrates</li>
+        <li>4 g fiber</li>
+          <li >13 g sugar</li>
+            <li>52 g fat</li>
+              <li>26 g saturated fat</li>
+                <li>1648 mg sodium</li>
+                </ul>
 
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ul>
+
+</div>
 </div>
 
 

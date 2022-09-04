@@ -214,6 +214,21 @@ button.recipe9 {
   background-size: cover;
 }
 
+button.recipe10 {
+  background-image: url(img/main-page/fig-cake/icon.jpeg);
+  background-size: cover;
+}
+
+button.recipe11 {
+  background-image: url(img/main-page/cantaloupe-frenzy/icon.jpeg);
+  background-size: cover;
+}
+
+button.recipe12 {
+  background-image: url(img/main-page/chocolate-ice-cream/icon.jpeg);
+  background-size: cover;
+}
+
 .footer-link:link {
   text-decoration: none;
   color: white;

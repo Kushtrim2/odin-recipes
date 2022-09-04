@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <head>
     <title>Zucchini Tuna</title>
-    <link rel="stylesheet" href="lasagna.css">
+    <link rel="stylesheet" href="zucchini-tuna.css">
   </head>
   <body>
       <header>
@@ -11,39 +11,86 @@
       </header>
 
 <main>
-    <h2>Short Desciptrion of the amazing dish</h2>
-    <p>The preferred meal of Charlie Kelly, from "It's Always Sunny in Philidelphia".</p>
+    <h2>Easy and fairly quick to make. Tuna and zucchini go great together!</h2>
+    <p>The preferred meal of Donald Trump, from "It's Always Sunny in Philidelphia".</p>
     <p>Only the finest cuts of beef should be used, and is delicious when served immediately, or after fermenting in the trash for a week.</p>
 
+<div class="container">
 
 <div class="Ingredients">
   <h3>Ingredients</h3>
-
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<li>  3 zucchini, ends trimmed</li>
+<li>  4 (3 ounce) cans tuna, drained and flaked</li>
+<li>  ¼ onion, grated</li>
+<li>  1 tomato, finely chopped (Optional)</li>
+<li>  1 cup dry bread crumbs</li>
+<li>  1 egg, beaten</li>
+<li>  salt and ground black pepper to taste</li>
+<li>  1 tablespoon olive oil</li>
 </ul>
 </div>
+
+
+<div class="slideshow">
+  <div class="w3-content w3-section"  style="width: 100%; height: 15vw; object-fit: cover;">
+    <img class="mySlides" src="img/zucchini-tuna/img1.jpeg" style="width:100%">
+    <img class="mySlides" src="img/zucchini-tuna/img2.jpeg" style="width:100%">
+    <img class="mySlides" src="img/zucchini-tuna/img3.jpeg" style="width:100%">
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+</div>
+
+
+
 
 <div class="Instructions">
 <h3>Instructions</h3>
 
 <ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<p><li>  Fill a large pot with salted water, place the zucchini into the pot, and boil over medium heat for about 5 minutes to soften. Remove the zucchini, slice in half lengthwise, and allow to cool.</p></li>
+
+<p><li> Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x13-inch baking dish.</p></li>
+
+<p><li> Scoop out the flesh from the zucchini halves, leaving a 1/2-inch shell. Set aside the scooped out flesh in a bowl.</p></li>
+
+<p><li> Place the zucchini flesh into a bowl and mash well. Mix in the tuna, onion, tomato, bread crumbs, egg, salt, and black pepper. Lightly stuff the zucchini shells with the tuna mixture. Drizzle about 1/2 teaspoon of olive oil over each stuffed zucchini half.</p></li>
+
+<p><li> Bake in the preheated oven until the tops are slightly browned, 20 to 25 minutes.</p></li>
 </ol>
 </div>
 
 <div class="Nutritions">
-<h3>Nutritions</h3>
+  <h3>Nutritions</h3>
+<ul  class="Nutritions-list">
+  <li>533 calories</li>
+    <li>63 g protein</li>
+      <li>54 g carbohydrates</li>
+        <li>4 g fiber</li>
+          <li >13 g sugar</li>
+            <li>52 g fat</li>
+              <li>26 g saturated fat</li>
+                <li>1648 mg sodium</li>
+                </ul>
 
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ul>
+
+</div>
 </div>
 
 

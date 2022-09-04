@@ -2,48 +2,108 @@
 <html lang="en" dir="ltr">
     <meta charset="utf-8">
     <head>
-    <title>Apple Cinnamon</title>
-    <link rel="stylesheet" href="lasagna.css">
+    <title>Apple Cinnamon Muffin</title>
+    <link rel="stylesheet" href="apple-cinnamon-muffin.css">
   </head>
   <body>
       <header>
-        <h1>Apple Cinnamon</h1>
+        <h1>Apple Cinnamon Muffin</h1>
       </header>
 
 <main>
-    <h2>Short Desciptrion of the amazing dish</h2>
-    <p>The preferred meal of Charlie Kelly, from "It's Always Sunny in Philidelphia".</p>
-    <p>Only the finest cuts of beef should be used, and is delicious when served immediately, or after fermenting in the trash for a week.</p>
+  <h2>A muffin is an individually portioned baked product</h2>
+  <p>While quickbread "American" muffins are often sweetened, there are savory varieties made with ingredients such as corn and cheese, and less sweet varieties like traditional bran muffins</p>
+  <p>The use of the term to describe what are essentially cupcakes or buns did not become common usage in Britain until the last decades of the 20th century</p>
 
+<div class="container">
 
 <div class="Ingredients">
   <h3>Ingredients</h3>
 
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+  <h4>Topping:<h4>
+
+<li>¼ cup quick-cooking oats</li>
+<li>  1 tablespoon brown sugar</li>
+<li>  1 tablespoon melted butter</li>
+<li>  ¼ teaspoon ground cinnamon</li>
+
+<h4>  Muffins:</h4>
+
+<li>  1 ½ cups quick-cooking oats</li>
+<li>  1 ½ cups all-purpose flour</li>
+<li>  ½ cup brown sugar</li>
+<li>  1 ½ teaspoons ground cinnamon</li>
+<li>  1 teaspoon baking powder</li>
+<li>  ½ teaspoon baking soda</li>
+<li>  ½ teaspoon salt</li>
+<li>  ½ cup unsweetened applesauce</li>
+<li>  ½ cup milk</li>
+<li>¼ cup vegetable oil</li>
+<li>  1 large egg, lightly beaten</li>
+<li>  1 teaspoon vanilla extract</li>
+<li>  1 apple - peeled, cored, and chopped</li>
 </ul>
 </div>
+
+
+<div class="slideshow">
+  <div class="w3-content w3-section"  style="width: 100%; height: 15vw; object-fit: cover;">
+    <img class="mySlides" src="img/apple-cinnamon-muffin/img1.jpeg" style="width:100%">
+    <img class="mySlides" src="img/apple-cinnamon-muffin/img2.jpeg" style="width:100%">
+    <img class="mySlides" src="img/apple-cinnamon-muffin/img3.jpeg" style="width:100%">
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+</div>
+
+
+
 
 <div class="Instructions">
 <h3>Instructions</h3>
 
 <ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<p><li>Preheat the oven to 400 degrees F (200 degrees C). Grease a 12-cup muffin pan or line with paper liners.</p></li>
+<p><li>Make topping: Mix oats, brown sugar, melted butter, and cinnamon in a small bowl; set aside.</p></li>
+<p><li>Make muffins: Whisk together oats, flour, brown sugar, cinnamon, baking powder, baking soda, and salt in a large bowl. Whisk together applesauce, milk, oil, egg, and vanilla extract in a medium bowl. Stir applesauce mixture into flour mixture until all ingredients are moistened. Fold in chopped apple.</p></li>
+<p><li>Spoon batter into the prepared muffin cups about 2/3 full; sprinkle oat topping mixture evenly over each muffin.</p></li>
+<p><li>Bake in the preheated oven until a toothpick inserted near the center comes out clean, about 15 minutes.</p></li>
 </ol>
+
 </div>
 
 <div class="Nutritions">
-<h3>Nutritions</h3>
+  <h3>Nutritions</h3>
+<ul  class="Nutritions-list">
+  <li>Protein: 4g</li>
+  <li>Carbohydrates: 29.6g</li>
+  <li>Dietary Fiber: 2.2g</li>
+  <li>Sugars: 9.9g</li>
+  <li>Fat: 7.1g</li>
+  <li>Saturated Fat: 1.7g </li>
+  <li>Cholesterol: 18.9mg</li>
+  <li>Vitamin A Iu: 79.2IU</li>
+  <li>Niacin Equivalents: 1.9mg</li>
+  </ul>
 
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ul>
+
+</div>
 </div>
 
 

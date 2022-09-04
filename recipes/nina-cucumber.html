@@ -2,48 +2,85 @@
 <html lang="en" dir="ltr">
     <meta charset="utf-8">
     <head>
-    <title>Nina Cucumber</title>
-    <link rel="stylesheet" href="lasagna.css">
+    <title>Nina Cucumber Salad</title>
+    <link rel="stylesheet" href="nina-cucumber.css">
   </head>
   <body>
       <header>
-        <h1>Nina Cucumber</h1>
+        <h1>Nina Cucumber Salad</h1>
       </header>
 
 <main>
-    <h2>Short Desciptrion of the amazing dish</h2>
-    <p>The preferred meal of Charlie Kelly, from "It's Always Sunny in Philidelphia".</p>
+    <h2>The recipe for this easy salad came from my grandma, who made it in the summers with fresh dill and cucumbers from her garden.</h2>
+    <p>The preferred meal of Donald Trump, from "It's Always Sunny in Philidelphia".</p>
     <p>Only the finest cuts of beef should be used, and is delicious when served immediately, or after fermenting in the trash for a week.</p>
 
+<div class="container">
 
 <div class="Ingredients">
   <h3>Ingredients</h3>
-
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<li> ½ cup reduced-fat sour cream (such as Daisy®)</li>
+<li> 2 tablespoons fresh lemon juice</li>
+<li> 2 tablespoons chopped fresh dill</li>
+<li> 3 cucumbers, halved lengthwise and thinly sliced crosswise</li>
+<li> ½ cup thinly sliced red onion</li>
+<li>coarse salt and ground black pepper to taste</li>
 </ul>
 </div>
+
+
+<div class="slideshow">
+  <div class="w3-content w3-section"  style="width: 100%; height: 15vw; object-fit: cover;">
+    <img class="mySlides" src="img/nina-cucumber/img1.jpeg" style="width:100%">
+    <img class="mySlides" src="img/nina-cucumber/img2.jpeg" style="width:100%">
+    <img class="mySlides" src="img/nina-cucumber/img3.jpeg" style="width:100%">
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+</div>
+
+
+
 
 <div class="Instructions">
 <h3>Instructions</h3>
 
 <ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<p><li>Mix sour cream, lemon juice, and dill together in a bowl. Add cucumbers and onion; stir to combine. Season with salt and black pepper.</li></p>
 </ol>
 </div>
 
 <div class="Nutritions">
-<h3>Nutritions</h3>
+  <h3>Nutritions</h3>
+<ul  class="Nutritions-list">
+  <li>533 calories</li>
+    <li>63 g protein</li>
+      <li>54 g carbohydrates</li>
+        <li>4 g fiber</li>
+          <li >13 g sugar</li>
+            <li>52 g fat</li>
+              <li>26 g saturated fat</li>
+                <li>1648 mg sodium</li>
+                </ul>
 
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ul>
+
+</div>
 </div>
 
 

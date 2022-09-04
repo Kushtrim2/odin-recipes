@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <head>
     <title>Thai Grilled Chicken</title>
-    <link rel="stylesheet" href="lasagna.css">
+    <link rel="stylesheet" href="thai-grilled-chicken.css">
   </head>
   <body>
       <header>
@@ -11,39 +11,86 @@
       </header>
 
 <main>
-    <h2>Short Desciptrion of the amazing dish</h2>
-    <p>The preferred meal of Charlie Kelly, from "It's Always Sunny in Philidelphia".</p>
-    <p>Only the finest cuts of beef should be used, and is delicious when served immediately, or after fermenting in the trash for a week.</p>
+    <h2>If you're a grilled chicken thigh and Asian food fan, you're in for a treat. </h2>
+    <p>The preferred meal of Donald Trump, from "It's Always Sunny in Philidelphia".</p>
+    <p>Garnish with chopped cilantro and serve with lime wedges on the side.</p>
 
+<div class="container">
 
 <div class="Ingredients">
   <h3>Ingredients</h3>
-
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<li>  ¼ cup soy sauce</li>
+<li>  ¼ cup fish sauce</li>
+<li>  3 tablespoons brown sugar</li>
+<li>  2 tablespoons chopped cilantro</li>
+<li>  1 tablespoon sesame oil</li>
+<li>  1 tablespoon minced fresh ginger root</li>
+<li>  1 tablespoon Sriracha sauce</li>
+<li>  1 tablespoon minced garlic</li>
+<li>  1 tablespoon lime juice</li>
+<li>  1 teaspoon lemongrass paste (such as Gourmet Garden®)</li>
+<li>  2 pounds boneless, skinless chicken thighs</li>
 </ul>
 </div>
+
+
+<div class="slideshow">
+  <div class="w3-content w3-section"  style="width: 100%; height: 15vw; object-fit: cover;">
+    <img class="mySlides" src="img/thai-grilled-chicken/img1.jpeg" style="width:100%">
+    <img class="mySlides" src="img/thai-grilled-chicken/img2.jpeg" style="width:100%">
+    <img class="mySlides" src="img/thai-grilled-chicken/img3.jpeg" style="width:100%">
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+</div>
+
+
+
 
 <div class="Instructions">
 <h3>Instructions</h3>
 
 <ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+<p><li>Whisk soy sauce, fish sauce, brown sugar, cilantro, sesame oil, ginger, Sriracha, garlic, lime juice, and lemongrass paste together in a bowl.</p></li>
+<p><li>Put chicken thighs in a resealable plastic bag, pour marinade over chicken, and marinate for 2 hours or overnight for an even better flavor..</p></li>
+<p><li>Preheat the grill to medium-high heat and oil the grate..</p></li>
+<p><li>Remove chicken thighs from marinade, discarding marinade..</p></li>
+<p><li>Grill chicken thighs until they are no longer pink in the center and the juices run clear, about 3 minutes per side. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).</p></li>
+<p><li>Remove from grill and allow to rest for a few minutes before serving.</p></li>
 </ol>
 </div>
 
 <div class="Nutritions">
-<h3>Nutritions</h3>
+  <h3>Nutritions</h3>
+  <ul  class="Nutritions-list">
+<li>Protein: 37.3g</li>
+<li>Carbohydrates: 13.4g</li>
+<li>Dietary Fiber: 0.4g</li>
+<li>Sugars: 10.8g</li>
+<li>Saturated Fat: 6.7g</li>
+<li>Cholesterol: 127.7mg</li>
+<li>Vitamin A Iu: 455.3IU</li>
+<li>Niacin Equivalents: 15mg</li>
+ </ul>
 
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ul>
+
+</div>
 </div>
 
 
