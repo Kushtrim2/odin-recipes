@@ -11,9 +11,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  margin: 0%;
-  padding-left: 13vw;
-  padding-right: 13vw;
+  margin: 3%;
+  padding-left: 12vw;
+  padding-right: 12vw;
   padding-top: 1vw;
   padding-bottom: 1vw;
 }
@@ -38,7 +38,8 @@ main {
 }
 
 header {
-  align-items: center;
+  margin: 0;
+  padding: 0;
   font-family: serif;
 }
 
@@ -83,7 +84,7 @@ ol {
 }
 
 .Ingredients {
-  margin-bottom: 2vw;
+  margin-bottom: 5vw;
   padding: 1vw;
   border-color: #b78100;
   border-style: dashed;
@@ -95,7 +96,7 @@ ol {
   align-content: center;
   align-items: center;
   text-indent: 5%;
-  margin-bottom: 2vw;
+  margin-bottom: 5vw;
   padding: -1%;
   border-color: #b78100;
   border-style: dashed;
@@ -115,7 +116,7 @@ ol {
 }
 
 .Instructions p {
-  margin-bottom: 0%;
+  margin-bottom: 2%;
 }
 
 .Nutritions {
